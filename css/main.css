@@ -1,0 +1,102 @@
+/*header*/
+
+.padding-mockup{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header{
+    background-image: url('../assets/fields.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-rows: 120px 1fr;
+    grid-row-gap: 20%;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+ 
+    
+}
+
+.thankful{
+    padding-top: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    width: 30%;
+    text-align: center;
+    line-height: 7.3rem;
+}
+
+.thankful img{
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+}
+.header{
+    width: 100%;
+}
+.header nav{
+    display: flex;
+}
+.header ul{
+    width: 70%;
+    display: flex;
+    font-family: 'Nanum Gothic', sans-serif;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    list-style: none;
+}
+.nav-links{
+    width: 180px;
+    text-align: center;
+
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(252, 158, 133);
+    width: 300px;
+    height: 60px;
+    border-radius: 4px;
+    margin: 4% auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button-header{
+    font-size: 18px;
+    font-weight: bold;
+   text-align: center;
+
+    color:white;
+    padding: 0.4em;
+}
+
+.amazing-gifts{
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    font-size: 80px;
+    border-bottom: solid 1px white;
+}
+.people-you-love{
+    font-family: 'Nunito', sans-serif;
+    font-size: 170px;
+    
+}
+
+.title p {
+    font-size: 25px;
+}
